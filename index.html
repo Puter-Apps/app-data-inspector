@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puter App Data Inspector</title>
+    <script src="https://js.puter.com/v2/"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">
+            <h1>App Data Inspector</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="sidebar">
+            <button id="signInAndLoadBtn" class="btn-primary">
+                <span id="buttonText">Sign In & Load Apps</span>
+            </button>
+
+            <div id="appSelectorContainer" style="display: none;">
+                <div class="section-title">Select Application</div>
+                <select id="appDataSelect" class="form-select">
+                    <option value="">-- Select an app --</option>
+                </select>
+            </div>
+
+            <div class="app-preview" id="appPreview">
+                <img id="appIcon" class="app-icon" src="" alt="App Icon">
+                <div class="app-name" id="appName"></div>
+                <div class="app-description" id="appDescription"></div>
+            </div>
+
+            <div id="statusMessage" class="status info">Ready to start inspection</div>
+        </div>
+
+        <div class="main-content">
+            <div class="data-header">
+                <div class="data-title">Application Data</div>
+                <button class="btn-secondary" id="copyButton" style="display: none;">Copy JSON</button>
+            </div>
+            <div class="data-display" id="appDataOutput">
+                <div class="placeholder-message">
+                    Sign in and select an application to view its detailed information
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="main.js">
+
+</script>
+</body>
+</html>
