@@ -33,9 +33,9 @@ This application uses:
 - Modern CSS for styling with a responsive design
 - JSON formatting and syntax highlighting
 
-## Puter SDK Integration
+## Puter.js Integration
 
-The App Data Inspector serves as a practical example of how to use the Puter SDK:
+The App Data Inspector serves as a practical example of how to use the Puter.js SDK:
 
 - Authentication with `puter.auth.signIn()` and `puter.auth.isSignedIn()`
 - App data retrieval with `puter.apps.list()`
@@ -54,7 +54,7 @@ Alternatively, access the hosted version at [puter.com/app/app-data-inspector](h
 
 ## For Developers
 
-This project includes tutorial-style comments in the JavaScript code that explain how to use the Puter SDK. These comments are designed to help developers who are new to the Puter platform understand how to integrate with Puter services.
+This project includes tutorial-style comments in the JavaScript code that explain how to use the Puter.js. These comments are designed to help developers who are new to the Puter platform understand how to integrate with Puter services.
 
 ## License
 
