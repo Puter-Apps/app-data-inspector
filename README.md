@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://puter.com/app/app-data-inspector" target="_blank">App Data Inspector</a>
+  <a href="https://puter.com/app/app-inspector" target="_blank">App Data Inspector</a>
 </h1>
 
 <p align="center">A developer tool for inspecting and exploring the metadata of applications in your Puter account.
@@ -31,7 +31,7 @@ git clone https://github.com/puter-apps/puter-app-data-inspector.git
 
 and open the `index.html` file in any hosted environment.
 
-Alternatively, access the hosted version at [puter.com/app/app-data-inspector](https://puter.com/app/app-data-inspector).
+Alternatively, access the hosted version at [https://puter.com/app/app-inspector](https://puter.com/app/app-inspector)
 
 <br>
 
